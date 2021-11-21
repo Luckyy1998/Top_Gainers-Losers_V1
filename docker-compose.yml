@@ -1,0 +1,9 @@
+version: '3'
+services:
+  report:
+    build: .
+    volumes:
+      - ./out:/app/reports
+
+
+
